@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Country Quiz</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -27,32 +27,31 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+This project is a simple quiz game, there are only three topics and it is about countries.
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+- Capital
+- Flag
+- Polulation
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+I have worked using many states for each component, for example when the question is correct, change the color to green and if the question that you select is wrong change the color to red.
+
+The challenge was build the options and create the question, according to the topic and using random countries.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Styled-Components](https://styled-components.com/)
+- [React-Icons](https://react-icons.github.io/react-icons/)
 
 ## Features
 
