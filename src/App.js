@@ -27,6 +27,7 @@ function App() {
         setStates({ ...states, countries: data, questionOptions: question });
       })
       .catch((error) => console.log(error));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const nextQuestion = () => {
