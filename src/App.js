@@ -23,6 +23,7 @@ function App() {
   useEffect(() => {
     getList()
       .then((data) => {
+        console.log(data);
         const question = createQuestion(data);
         setStates({ ...states, countries: data, questionOptions: question });
       })

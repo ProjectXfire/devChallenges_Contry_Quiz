@@ -45,6 +45,8 @@ I have worked using many states for each component, for example when the questio
 
 The challenge was build the options and create the question, according to the topic and using random countries.
 
+The API used for this project is http://api.countrylayer.com/v2/all, the other API https://restcountries.eu/ is not available, and this API, for free user, has limited result and limited requests.
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->

@@ -5,14 +5,14 @@ const questions = [
     name: "capital",
     text: " is the capital of",
   },
-  {
+  /*{
     name: "flag",
     text: "Which country does this flag belong to?",
   },
   {
     name: "population",
     text: " - Which population does this country have?",
-  },
+  },*/
 ];
 
 // Options format
@@ -41,7 +41,7 @@ export const getOptions = (data, typeQuestion) => {
 
 // Create question with their options
 export const createQuestion = (data) => {
-  const randomQuestion = randomNumbers(2);
+  const randomQuestion = 0;
   const oneOption = randomNumbers(3);
 
   const allOptions = [];
@@ -71,7 +71,7 @@ export const createQuestion = (data) => {
         options,
       };
     }
-    case "flag": {
+    /*case "flag": {
       const options = getOptions(allOptions, "flag");
       return {
         correctOption: {
@@ -93,7 +93,7 @@ export const createQuestion = (data) => {
         },
         options,
       };
-    }
+    }*/
     default: {
       return {
         correctOption: {
